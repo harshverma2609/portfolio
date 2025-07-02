@@ -7,7 +7,7 @@ function Education(){
         <section id='Qualification'>
             <h2>Educational Qualifications</h2>
             <div>
-                <img src={require("./images/DTU_Delhi_official_logo.png")} alt='DTU LOGO' />
+                <a href='https://www.dtu.ac.in/'><img src={require("./images/DTU_Delhi_official_logo.png")} alt='DTU LOGO' /></a>
                 <div className='education' id='DTU'>
                     <h2>
                         Delhi Technological University (DTU)
@@ -17,15 +17,15 @@ function Education(){
                         Shahbad DaulatPur, Bawana
                     </h2>
                     <h3>Bachelor Of Technology <br/> Information Technology <br/> 2021-2025</h3>
-                    <h3>CGPA: 8.10/10.00</h3>
+                    <h3>CGPA: 8.25/10.00</h3>
                 </div>
                 <CGPAChart/>
             </div>
             <div>
-                <img src={require("./images/DAV LOGO.png")} alt='DAV LOGO' />
+                <a href='https://davpushpanjali.in/'><img src={require("./images/DAV LOGO.png")} alt='D.A.V LOGO' /></a>
                 <div className='education'>
                     <h2>
-                        D.A.V Public School
+                        D.A.V. Public School
                         <br/>
                         Pushpanjali Enclave
                     </h2>

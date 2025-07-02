@@ -1,3 +1,4 @@
+
 import "./HomePage.css";
 import React, { useEffect } from "react";
 import gsap from "gsap";
@@ -60,7 +61,7 @@ function HomePage() {
         <img id="cover" src={require("./images/cover2.png")} alt="cover" />
         <Typewriter
           text={[
-            "Hi my name is\nHarsh Verma!\n\nI’m a C++ Developer\nand MERN Full Stack\nWeb Developer.",
+            "Hi my name is\nHarsh Verma!\n\nI’m a C++ Developer\nand Full Stack\nWeb Developer.",
           ]}
           speed={100}
           eraseSpeed={50}
@@ -75,7 +76,7 @@ function HomePage() {
         </div>
         <span>About Me</span>
         <p class="info">
-          I’m a final-year IT student skilled in C++ programming and full-stack
+          I’m a recent B.Tech Graduate from DTU skilled in C++ programming and full-stack
           web development, including HTML, CSS, React.js, and Node.js.
           <br />
           I’m actively seeking a full-time role where I can leverage my strong
@@ -129,7 +130,7 @@ function HomePage() {
             </svg>
           </a>
         </div>
-        <a href="https://drive.google.com/file/d/1pvrFZ6e-D0JaAvCeMvdnZZmluqJ4n1u9/view">
+        <a href="https://drive.google.com/file/d/1A7_0o8b5br6g-1cWgJM7XmaFje-O2eXY/view">
           <button>Resume</button>
         </a>
       </div>

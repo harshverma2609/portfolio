@@ -14,10 +14,15 @@
     flex-direction: column;
 }
 .project-item > h2{
-    padding: 2rem 0;
+    padding: 4rem 0 0;
     font-size: 2rem;
     color: rgb(78, 61, 61);
     /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
+}
+.project-item > p{
+    padding: 1rem;
+    font-size: 1.3rem;
+    color: rgb(78, 61, 61);
 }
 .project-item > iframe{
     align-self: center;
@@ -34,8 +39,11 @@
     }
     
     .project-item > h2{
-        padding: 1.8rem 0;
+        padding: 1.8rem 0 0;
         font-size: 1.8rem;
+    }
+    .project-item > p{
+        font-size: 1.1rem;
     }
 }
 /* Medium devices (landscape tablets, 768px and up) */
@@ -48,8 +56,11 @@
     }
     
     .project-item > h2{
-        padding: 1.8rem 0;
+        padding: 1.8rem 0 0;
         font-size: 1.8rem;
+    }
+    .project-item > p{
+        font-size: 1.1rem;
     }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -62,8 +73,11 @@
     }
     
     .project-item > h2{
-        padding: 1.8rem 0;
+        padding: 1.8rem 0 0;
         font-size: 1.8rem;
+    }
+    .project-item > p{
+        font-size: 1.1rem;
     }
 }
 /* Extra small devices (phones, 600px and down) */
@@ -76,7 +90,10 @@
     }
     
     .project-item > h2{
-        padding: 1.5rem 0;
+        padding: 1.5rem 0 0;
         font-size: 1.2rem;
+    }
+    .project-item > p{
+        font-size: 0.9rem;
     }
 }

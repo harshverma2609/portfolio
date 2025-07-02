@@ -75,11 +75,11 @@ const Contact =()=>{
             
             <p>Connect with me on Social Media</p>
             <footer>
-                <a href='https://drive.google.com/file/d/1pvrFZ6e-D0JaAvCeMvdnZZmluqJ4n1u9/view'><img src={require('./images/socials/resume.png')} alt='Resume' /></a>
-                <a href='https://www.linkedin.com/in/harsh-verma-782a16231/'><img src={require('./images/socials/linkedIn.png')} alt='LinkedIn' /></a>
-                <a href='https://github.com/harshverma2609?tab=repositories'><img src={require('./images/socials/github.png')} alt='GitHub' /></a>
-                <a href='https://www.instagram.com/'><img src={require('./images/socials/instagram.png')} alt='Instagram' /></a>
-                <a href='mailto:harshverma_17@outlook.com'><img src={require('./images/socials/mail.png')} alt='Mail' /></a>
+                <a title='Resume' href='https://drive.google.com/file/d/1A7_0o8b5br6g-1cWgJM7XmaFje-O2eXY/view'><img src={require('./images/socials/resume.png')} alt='Resume' /></a>
+                <a title='LinkedIn' href='https://www.linkedin.com/in/harsh-verma-782a16231/'><img src={require('./images/socials/linkedIn.png')} alt='LinkedIn' /></a>
+                <a title='Github' href='https://github.com/harshverma2609?tab=repositories'><img src={require('./images/socials/github.png')} alt='GitHub' /></a>
+                <a title='Instagram' href='https://www.instagram.com/'><img src={require('./images/socials/instagram.png')} alt='Instagram' /></a>
+                <a title='E-Mail' href='mailto:harshverma_17@outlook.com'><img src={require('./images/socials/mail.png')} alt='Mail' /></a>
             </footer>
         </section>
     );

@@ -10,11 +10,11 @@ ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, T
 
 const CGPAChart = () => {
     const data = {
-        labels: ['Semester 1', 'Semester 2', 'Semester 3', 'Semester 4', 'Semester 5', 'Semester 6'], // X-axis labels
+        labels: ['Semester 1', 'Semester 2', 'Semester 3', 'Semester 4', 'Semester 5', 'Semester 6', 'Semester 7', 'Semester 8'], // X-axis labels
         datasets: [
             {
                 label: 'CGPA',
-                data: [8.60, 6.91, 7.91, 7.36, 8.87, 8.85], // Y-axis data
+                data: [8.60, 6.91, 7.91, 7.36, 8.87, 8.85, 9.46, 7.33], // Y-axis data
                 fill: false,
                 backgroundColor: 'rgba(75,192,192,0.6)',
                 borderColor: 'rgba(75,192,192,1)',
