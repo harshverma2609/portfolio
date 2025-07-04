@@ -1,99 +1,174 @@
-
-#Projects{
-    padding: 5rem;
+/* Main Projects Section */
+#Projects {
+    padding: 5rem 2rem;
+    color: #f1f1f1;
+    background: linear-gradient(to right, #1e1e2f, #2c3e50);
+    justify-items: center;
 }
-#Projects > h2{
+
+#Projects > h2 {
     font-size: 3rem;
     font-weight: 900;
     text-align: center;
     color: red;
+    margin-bottom: 3rem;
+    letter-spacing: 2px;
 }
 
-.project-item{
+.project-item {
     display: flex;
     flex-direction: column;
-}
-.project-item > h2{
-    padding: 4rem 0 0;
-    font-size: 2rem;
-    color: rgb(78, 61, 61);
-    /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
-}
-.project-item > p{
-    padding: 1rem;
-    font-size: 1.3rem;
-    color: rgb(78, 61, 61);
-}
-.project-item > iframe{
-    align-self: center;
-    border: 1px solid black;
+    background-color: #ffffff;
+    color: #1c1c1c;
+    padding: 2.5rem;
+    width: 90%;
+    margin: 3rem 0;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) and (max-width: 1200px){
-    #Projects{
-        padding: 2rem 4rem;
+.project-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.2);
+}
+
+.project-item > h2 {
+    font-size: 2rem;
+    color: #4e3d3d;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.project-item > p {
+    margin: 0 1rem;
+    text-align: justify;
+}
+
+.project-item > iframe {
+    align-self: center;
+    width: 95%;
+    max-width: 100%;
+    border-radius: 10px;
+    border: 1px solid black;
+
+    opacity: 0;
+    height: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    pointer-events: none;
+    transition: height 1s ease, opacity 1s ease, margin 1s ease;
+}
+.project-item > iframe.visible {
+    opacity: 1;
+    height: 600px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    pointer-events: auto;
+}
+
+.project-item ul {
+    padding-left: 2rem;
+    margin: 1rem 1rem 1rem 0;
+    text-align: justify;
+}
+
+.project-item li {
+    padding-left: 0.5rem;
+    margin-bottom: 0.5rem;
+    list-style-type: disc;
+}
+
+.project-item button,
+.project-item a.button {
+    align-self: center;
+    background: linear-gradient(135deg, #ff5f6d, #ffc371);
+    color: white;
+    border: none;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+}
+
+.project-item button:hover,
+.project-item a.button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+}
+
+/* Responsive Design */
+
+/* Large devices (992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    #Projects {
+        padding: 4rem 3rem;
     }
-    #Projects > h2{
+    #Projects > h2 {
         font-size: 2.5rem;
     }
-    
-    .project-item > h2{
-        padding: 1.8rem 0 0;
-        font-size: 1.8rem;
-    }
-    .project-item > p{
-        font-size: 1.1rem;
-    }
-}
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) and (max-width: 992px){
-    #Projects{
+    .project-item {
         padding: 2rem;
     }
-    #Projects > h2{
-        font-size: 2.5rem;
-    }
-    
-    .project-item > h2{
-        padding: 1.8rem 0 0;
+    .project-item > h2 {
         font-size: 1.8rem;
     }
-    .project-item > p{
-        font-size: 1.1rem;
+}
+
+/* Medium devices (768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    #Projects {
+        padding: 3rem 2rem;
+    }
+    #Projects > h2 {
+        font-size: 2.3rem;
+    }
+    .project-item {
+        padding: 1.8rem;
+    }
+    .project-item > h2 {
+        font-size: 1.6rem;
     }
 }
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) and (max-width: 768px){
-    #Projects{
-        padding: 2rem;
+
+/* Small devices (600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    #Projects {
+        padding: 2rem 1.5rem;
     }
-    #Projects > h2{
-        font-size: 2.5rem;
+    #Projects > h2 {
+        font-size: 2.2rem;
     }
-    
-    .project-item > h2{
-        padding: 1.8rem 0 0;
-        font-size: 1.8rem;
-    }
-    .project-item > p{
-        font-size: 1.1rem;
-    }
-}
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    #Projects{
+    .project-item {
         padding: 1.5rem;
     }
-    #Projects > h2{
+    .project-item > h2 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Extra small devices (phones, under 600px) */
+@media only screen and (max-width: 600px) {
+    #Projects {
+        padding: 1.5rem 1rem;
+    }
+    #Projects > h2 {
         font-size: 2rem;
     }
-    
-    .project-item > h2{
-        padding: 1.5rem 0 0;
-        font-size: 1.2rem;
+    .project-item {
+        padding: 1.2rem;
     }
-    .project-item > p{
+    .project-item > h2 {
+        font-size: 1.3rem;
+    }
+    .project-item button,
+    .project-item a.button {
+        padding: 0.6rem 1.5rem;
         font-size: 0.9rem;
     }
 }

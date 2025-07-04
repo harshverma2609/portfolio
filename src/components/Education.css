@@ -48,8 +48,8 @@
 }
 
 #chart{
-    height: 280px;
-    width: 500px;
+    height: auto;
+    width: auto;
     padding: 2rem;
 }
 #chart:hover{
@@ -83,9 +83,7 @@
     }
     
     #chart{
-        height: auto;
-        width: auto;
-        padding: 1rem;
+        padding: 1.5rem;
     }
 }
 /* Medium devices (landscape tablets, 768px and up) */

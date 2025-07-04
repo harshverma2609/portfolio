@@ -7,7 +7,7 @@ function Education(){
         <section id='Qualification'>
             <h2>Educational Qualifications</h2>
             <div>
-                <a href='https://www.dtu.ac.in/'><img src={require("./images/DTU_Delhi_official_logo.png")} alt='DTU LOGO' /></a>
+                <a href='https://www.dtu.ac.in/' target="_blank" rel="noopener noreferrer"><img src={require("./images/DTU_Delhi_official_logo.png")} alt='DTU LOGO' /></a>
                 <div className='education' id='DTU'>
                     <h2>
                         Delhi Technological University (DTU)
@@ -22,7 +22,7 @@ function Education(){
                 <CGPAChart/>
             </div>
             <div>
-                <a href='https://davpushpanjali.in/'><img src={require("./images/DAV LOGO.png")} alt='D.A.V LOGO' /></a>
+                <a href='https://davpushpanjali.in/' target="_blank" rel="noopener noreferrer"><img src={require("./images/DAV LOGO.png")} alt='D.A.V LOGO' /></a>
                 <div className='education'>
                     <h2>
                         D.A.V. Public School

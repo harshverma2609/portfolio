@@ -84,7 +84,7 @@ function HomePage() {
           exceptional results.
         </p>
         <div class="share">
-          <a href="https://github.com/harshverma2609">
+          <a href="https://github.com/harshverma2609" target="_blank" rel="noopener noreferrer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -96,7 +96,7 @@ function HomePage() {
               <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
             </svg>
           </a>
-          <a href="https://www.linkedin.com/in/harsh-verma-782a16231/">
+          <a href="https://www.linkedin.com/in/harsh-verma-782a16231/" target="_blank" rel="noopener noreferrer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -107,7 +107,7 @@ function HomePage() {
               <path d="M22.23 0H1.77C.792 0 0 .774 0 1.73v20.538C0 23.226.792 24 1.77 24H22.23c.978 0 1.77-.774 1.77-1.732V1.73C24 .774 23.208 0 22.23 0zM7.12 20.452H3.563V9.028H7.12v11.424zM5.342 7.593c-1.137 0-2.06-.921-2.06-2.057 0-1.137.922-2.058 2.06-2.058 1.136 0 2.057.922 2.057 2.058 0 1.137-.921 2.057-2.057 2.057zm14.426 12.859h-3.56V14.86c0-1.338-.026-3.063-1.865-3.063-1.868 0-2.153 1.46-2.153 2.967v5.688h-3.56V9.028h3.42v1.556h.049c.477-.9 1.636-1.844 3.366-1.844 3.602 0 4.27 2.37 4.27 5.448v6.264h-.001z" />
             </svg>
           </a>
-          <a href="https://leetcode.com/u/_harshverma_">
+          <a href="https://leetcode.com/u/_harshverma_" target="_blank" rel="noopener noreferrer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -118,7 +118,7 @@ function HomePage() {
               <path d="M511.5 0C229.1 0 0 229.1 0 511.5S229.1 1023 511.5 1023 1023 793.9 1023 511.5 793.9 0 511.5 0zm0 930.5C276.6 930.5 93 746.9 93 511.5S276.6 93 511.5 93 930.5 276.6 930.5 511.5 746.9 930.5 511.5 930.5zM740.3 394.5l-132.7 132.7c-15.2 15.2-15.2 39.8 0 55l132.7 132.7c15.2 15.2 15.2 39.8 0 55s-39.8 15.2-55 0L585.3 637.2l-132.7 132.7c-15.2 15.2-39.8 15.2-55 0s-15.2-39.8 0-55l132.7-132.7-132.7-132.7c-15.2-15.2-15.2-39.8 0-55s39.8-15.2 55 0l132.7 132.7 132.7-132.7c15.2-15.2 39.8-15.2 55 0s15.2 39.8 0 55z" />
             </svg>
           </a>
-          <a href="mailto:harshverma_17@outlook.com">
+          <a href="mailto:harshverma_17@outlook.com" target="_blank" rel="noopener noreferrer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -130,7 +130,7 @@ function HomePage() {
             </svg>
           </a>
         </div>
-        <a href="https://drive.google.com/file/d/1A7_0o8b5br6g-1cWgJM7XmaFje-O2eXY/view">
+        <a href="https://drive.google.com/file/d/1A7_0o8b5br6g-1cWgJM7XmaFje-O2eXY/view" target="_blank" rel="noopener noreferrer">
           <button>Resume</button>
         </a>
       </div>
