@@ -61,7 +61,7 @@ function HomePage() {
         <img id="cover" src={require("./images/cover2.png")} alt="cover" />
         <Typewriter
           text={[
-            "Hi my name is\nHarsh Verma!\n\nI’m a C++ Developer\nand Full Stack\nWeb Developer.",
+            "Hi my name is\nHarsh Verma\n\nI’m a C++ Developer\nand Full Stack\nWeb Developer.",
           ]}
           speed={100}
           eraseSpeed={50}
@@ -71,8 +71,11 @@ function HomePage() {
       </div>
 
       <div class="card">
-        <div class="img">
+        {/* <div class="img">
           <img src={require("./images/logo1.png")} />
+        </div> */}
+        <div class="logo">
+          <p>HV</p>
         </div>
         <span>About Me</span>
         <p class="info">

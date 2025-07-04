@@ -34,7 +34,7 @@ function Education(){
                 </div>
                 <div className='education'>
                     <h2>
-                        D.A.V Public School
+                        D.A.V. Public School
                         <br/>
                         Pushpanjali Enclave
                     </h2>

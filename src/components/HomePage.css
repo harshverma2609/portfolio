@@ -81,8 +81,38 @@
   color: white;
   display: block;
   text-align: center;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   margin: 0.5rem;
+}
+
+.card > .logo {
+  width: 4.8rem;
+  height: 4.8rem;
+  background: #C5D3FF;
+  color: black;
+  border-radius: 1rem;
+  margin: 0.5rem auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card > .logo > p {
+  font-family: Algerian, sans-serif;
+  text-align: center;
+
+  /* Make the font size scale with the container */
+  font-size: calc(4.8rem * 0.6); /* You can adjust 0.6 as needed */
+
+  margin: 0;
+  line-height: 1; /* Prevent vertical overflow */
+}
+
+.card > .logo:hover {
+  background: #FFFF00;
+  color: #EE0000;
+  transition: 0.5s ease;
 }
 
 .card > .img {
@@ -150,7 +180,7 @@
   }
 
   .card > .info {
-    font-size: 0.75rem;
+    font-size: 0.85rem;
   }
 
   .card > .img, .card > .img > img {
@@ -176,7 +206,7 @@
   }
 
   .card > .info {
-    font-size: 0.65rem;
+    font-size: 0.75rem;
   }
 
   .card > .img, .card > .img > img {

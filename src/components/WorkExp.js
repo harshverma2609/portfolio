@@ -8,7 +8,7 @@ const WorkExp = () => {
     {
       image: require('./images/TheMobiadz-Logo-Copy.png'),
       title: 'TheMobiAdz',
-      duration: '03 JUN, 2024 - 02 AUG, 2024',
+      duration: '03 JUN 2024 - 02 AUG 2024',
       role: 'Full Stack Web Developer Intern',
       workType: 'On-Site Intern',
       responsibilities: [
@@ -22,7 +22,7 @@ const WorkExp = () => {
     {
       image: require('./images/NIC-logo2.png'),
       title: 'NIC',
-      duration: '15 Jan, 2024 - 23 Feb, 2024',
+      duration: '15 Jan 2024 - 23 Feb 2024',
       role: 'Front-End Developer Intern',
       workType: 'Remote Intern',
       responsibilities: [
