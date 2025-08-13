@@ -133,7 +133,7 @@ function HomePage() {
             </svg>
           </a>
         </div>
-        <a href="https://drive.google.com/file/d/1A7_0o8b5br6g-1cWgJM7XmaFje-O2eXY/view" target="_blank" rel="noopener noreferrer">
+        <a href="https://drive.google.com/file/d/1fISoXGKY6M9P7gSGni-S7_ceBzV_-tqL/view" target="_blank" rel="noopener noreferrer">
           <button>Resume</button>
         </a>
       </div>
